@@ -18,3 +18,11 @@ data.frame(
         , q_val = q_obj$qvalues
           ) %>%
   View()
+
+
+data.frame(
+        p_val = q_obj$pvalues
+        , q_val = q_obj$qvalues
+        , lfdr= q_obj$lfdr
+          ) %>%
+  View()
